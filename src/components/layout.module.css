@@ -4,6 +4,11 @@
     font-family: sans-serif;
 }
 
+.header{
+    font-size: 3rem;
+    color: gray;
+}
+
 .navLink{
     display: flex;
 }
