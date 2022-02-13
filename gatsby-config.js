@@ -13,5 +13,6 @@ module.exports = {
             },
         },
         `gatsby-plugin-mdx`,
-    ]
+    ],
+    pathPrefix: "/coding-life-blog"
 }

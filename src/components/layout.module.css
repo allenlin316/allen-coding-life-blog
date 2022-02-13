@@ -1,18 +1,16 @@
-.container{
-    margin: auto;
-    max-width: 500px;
-    font-family: sans-serif;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.header{
-    font-size: 3rem;
-    color: gray;
-}
-
-.navLink{
+.jumbotron {
+    background: url('../images/meVlogging.jpeg') no-repeat center center /cover;
     display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
+    color: white;
 }
 
-.navItem{
-    padding-right: 2em;
+.title{
+    font-size: 3em;
 }
