@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-pages-blog-index-js",
     "path": "/blog/",
     "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"date":"2022-01-20","title":"Git I learned"},"id":"42ad486f-d8d0-5590-9a8c-a73e145dedfa","slug":"git-tutorial-post"},{"frontmatter":{"date":"2021-08-01","title":"Computer Science Note"},"id":"a6eef85b-6774-5854-8c9c-f6f729bf46cb","slug":"computer-science-post"}]}},"pageContext":{}},
-    "staticQueryHashes": ["3159585216"]}
+    "staticQueryHashes": []}

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkallen_s_coding_life=self.webpackChunkallen_s_coding_life||[]).push([[524],{1025:function(e,t,l){l.r(t);var n=l(7294),a=l(3705),r=l(1597);t.default=function(e){var t=e.data;return n.createElement(a.Z,{pageTitle:"My Coding Blogs"},t.allMdx.nodes.map((function(e){return n.createElement("article",{key:e.id},n.createElement(r.rU,{to:"/blog/"+e.slug},n.createElement("h2",null,e.frontmatter.title)),n.createElement("p",null,"Posted: ",e.frontmatter.date))})))}}}]);
+//# sourceMappingURL=component---src-pages-blog-index-js-94c9dfabe0cec7d3c88e.js.map

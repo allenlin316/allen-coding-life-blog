@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkallen_s_coding_life=self.webpackChunkallen_s_coding_life||[]).push([[678],{6558:function(e,l,n){n.r(l);var t=n(7294),a=n(3705);l.default=function(){return t.createElement(a.Z,{pageTitle:"Home"},t.createElement("p",null,"This is home page"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-4fbb594d1dc08f912c29.js.map
