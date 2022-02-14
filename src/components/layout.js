@@ -1,7 +1,7 @@
 import  * as React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Navbar, Nav, Container} from 'react-bootstrap'
-import {jumbotron, title, lead} from './layout.module.css'
+import {Navbar, Nav, Container, Row, Col} from 'react-bootstrap'
+import {jumbotron, title} from './layout.module.css'
 
 const Layout = ({pageTitle, children}) => {
     return (
@@ -9,7 +9,7 @@ const Layout = ({pageTitle, children}) => {
             <div className={jumbotron}>
                 <Container>
                     <h1 className={title}>My Awesome Life</h1>
-                    <p className={lead}>Never Give up on learning</p>
+                    <p>Never Give up on learning</p>
                 </Container>
             </div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -24,8 +24,14 @@ const Layout = ({pageTitle, children}) => {
                 </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <h2>{pageTitle}</h2>
-            <p>{children}</p>
+            <Container>
+                <Row>
+                    <Col md={8}>
+                        <h2>{pageTitle}</h2>
+                        <p>{children}</p>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }
