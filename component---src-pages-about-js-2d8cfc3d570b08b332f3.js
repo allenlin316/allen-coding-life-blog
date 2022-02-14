@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkallen_s_coding_life=self.webpackChunkallen_s_coding_life||[]).push([[682],{5465:function(e,l,n){n.r(l);var t=n(7294),u=n(277);l.default=function(){return t.createElement(u.Z,{pageTitle:"About Me"},t.createElement("p",null,"我是小孩"))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-2d8cfc3d570b08b332f3.js.map
